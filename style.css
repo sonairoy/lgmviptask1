@@ -566,66 +566,28 @@ h3
     {
         font-size: 24px;
     }
-    .comment-box
-    {
-        flex-direction: column;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
-        border: none;
-    }
-    .left
-    {
-        width: 100%;
-        margin: 2%;
-    }
-    .left h1
-    {
-        font-size: 24px;
-    }
-    .right
-    {
-        width: 80%;
-        margin-left: 0%;
-        align-items: center;
-        margin-right: 5%;
-        padding: 0px;
-        justify-content: flex-start;
-        
-    }
     .blog-right
     {
-        width: 300px;
+        width: 200px;
     }
+ 
 }
 
 /*------------contact us page---------*/
 
-.location
-{
-    width: 80%;
-    margin: auto;
-    padding: 80px 0;
-}
-.location iframe
-{
-    width: 100%;
-}
 .contact-us
 {
     width: 80%;
     margin: auto;
 }
+.contact-us h1
+{
+    text-align: center;
+}
 .contact-col
 {
     flex-basis: 48%;
     margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
-}
-.contact-col h1
-{
-    margin-bottom: 1%;
 }
 .contact-col div
 {
